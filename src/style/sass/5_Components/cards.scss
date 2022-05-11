@@ -14,27 +14,41 @@
       box-shadow: 3px 3px 5px $AUX_2_color;
       transition: 0.3s;
       &__cover {
-         border: solid #fff;
+         // border: solid #fff;
          height: 200px;
       }
       .features {
-         border: solid red 3px;
+         position: relative;
+         // border: solid red 3px;
          height: 300px;
          padding: 20px;
          h3 {
             font-size: 1.2em;
             margin-bottom: 15px;
             letter-spacing: 5px;
+            text-decoration: underline;
          }
          p {
-            letter-spacing: 3px;
+            letter-spacing: 2px;
          }
          .tags {
-            display: flex;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            display: inline-flex;
             flex-wrap: wrap;
-            .tag img {
-               width: 40px;
-               height: 40px;
+            width: 100%;
+            margin: 15px;
+            .tag {
+               border: solid 1px $tertiary_color;
+               width: 55px;
+               height: 55px;
+               margin: 5px;
+               img {
+                  // object-fit: contain;
+                  width: 100%;
+                  height: 100%;
+               }
             }
          }
       }

@@ -6,7 +6,7 @@ import projects from './../data/projects.json';
 const MyWork = () => {
    projects.sort((a, b) => (a.id > b.id ? -1 : 1));
    return (
-      <section className="mywork-page section">
+      <main className="mywork-page section">
          <h2>my_work(</h2>
          <ul className="projects">
             {projects.map((project) => (
@@ -22,7 +22,7 @@ const MyWork = () => {
             ))}
          </ul>
          <span>);</span>
-      </section>
+      </main>
    );
 };
 
