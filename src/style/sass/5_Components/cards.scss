@@ -1,0 +1,45 @@
+.projects {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: end;
+   width: 100%;
+   .card {
+      width: 310px;
+      height: 500px;
+      font-size: 1rem;
+      list-style: none;
+      border: solid $AUX_2_color 1px;
+      border-radius: 5px;
+      margin: 25px;
+      box-shadow: 3px 3px 5px $AUX_2_color;
+      transition: 0.3s;
+      &__cover {
+         border: solid #fff;
+         height: 200px;
+      }
+      .features {
+         border: solid red 3px;
+         height: 300px;
+         padding: 20px;
+         h3 {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            letter-spacing: 5px;
+         }
+         p {
+            letter-spacing: 3px;
+         }
+         .tags {
+            display: flex;
+            flex-wrap: wrap;
+            .tag img {
+               width: 40px;
+               height: 40px;
+            }
+         }
+      }
+   }
+   .card:hover {
+      transform: scale(1.05);
+   }
+}

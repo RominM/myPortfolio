@@ -1,0 +1,23 @@
+.network {
+   display: flex;
+   justify-content: space-around;
+   height: 8rem;
+   &__logo img {
+      position: relative;
+      width: 60px;
+      height: 60px;
+      margin-top: 2rem;
+      padding: 5px;
+      border-radius: 50%;
+      border: solid $AUX_2_color;
+      object-fit: cover;
+      transition: 0.3s;
+      filter: grayscale(0.6);
+      -webkit-filter: grayscale(0.6);
+   }
+   &__logo img:hover {
+      transform: scale(1.2);
+      filter: grayscale(0);
+      -webkit-filter: grayscale(0);
+   }
+}

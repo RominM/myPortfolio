@@ -1,0 +1,155 @@
+[
+   {
+      "id": 1,
+      "title": "Reservia",
+      "descript": "First approche on basic language HTML & CSS. Make a model real",
+      "cover": "assets/img/revervia_cover.png",
+      "link": "https://rominm.github.io/RominManogil_2_08022021/",
+      "tags": [
+         "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+         "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+      ]
+   },
+   {
+      "id": 2,
+      "title": "Oh my food",
+      "descript": "Navigation in local with different link. Creat all page then make little CSS animation",
+      "cover": "../../../assets/img/ohmyfood_cover.jpg",
+      "link": "https://rominm.github.io/RominManogil_03_18032021/",
+      "tags": [
+         "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+         "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+         "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
+      ]
+   },
+   {
+      "id": 3,
+      "title": "GameOn",
+      "descript": "First approch to Javascript. Handle a validation of formular with checkbox, required fields then generate an error message ",
+      "cover": "require(./../assets/img/gameOn_cover.png)",
+      "link": "https://rominm.github.io/RominManogil_04_18032021/",
+      "tags": [
+         "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+         "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+         "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original"
+      ]
+   },
+   {
+      "id": 4,
+      "title": "FishEyes",
+      "descript": "Multi-task in Vanilla Javascript project dynamicly with nativ loop and accessiblity",
+      "cover": "./../assets/img/fisheys_cover.PNG",
+      "link": "https://rominm.github.io/RominManogil_06_07062021/",
+      "tags": [
+         "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg/https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg-original-wordmark.svg",
+         "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+         "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original"
+      ]
+   },
+   {
+      "id": 5,
+      "title": "Les petits plats",
+      "descript": "Creating a searching algorythme among different recipes",
+      "cover": "./../assets/img/les-petits-plats_cover.PNG",
+      "link": "https://rominm.github.io/RominManogil_07_13092021/",
+      "tags": [
+         "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+         "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+         "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original"
+      ]
+   },
+   {
+      "id": 6,
+      "title": "Billed",
+      "descript": "",
+      "cover": "./../assets/img/billed_cover.png",
+      "link": "",
+      "tags": [
+         "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+         "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+         "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original",
+         "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
+      ]
+   },
+   {
+      "id": 7,
+      "title": "Kasa",
+      "descript": "Simply React application",
+      "cover": "./../assets/img/kasa_cover.PNG",
+      "link": "https://rominmanogil-p11-kasa.netlify.app/",
+      "tags": [
+         "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+         "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+         "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+      ]
+   },
+   {
+      "id": 8,
+      "title": "SportSee",
+      "descript": "Using React then reachart from api data",
+      "cover": "./../assets/img/sportSee_cover.PNG",
+      "link": "https://sportsee-mgl-p12.netlify.app/",
+      "tags": [
+         "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+         "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+         "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+      ]
+   },
+   {
+      "id": 9,
+      "title": "ArgentBank",
+      "descript": "",
+      "cover": "",
+      "link": "",
+      "tags": [
+         "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+         "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+         "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+      ]
+   },
+   {
+      "id": 10,
+      "title": "HRnet",
+      "descript": "",
+      "cover": "",
+      "link": "",
+      "tags": [
+         "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+         "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+         "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+      ]
+   }
+]

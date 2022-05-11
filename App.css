@@ -1,0 +1,14 @@
+
+
+.neon {
+   font-size: 4rem;
+   text-align: center;
+   color: #fff;
+   text-shadow: 0 0 7px rgba(255, 255, 255, 0.73),
+      0 0 10px rgba(255, 255, 255, 0.73), 0 0 42px #682ae9, 0 0 77px #682ae9,
+      0 0 100px #682ae9;
+   animation: lumiere 1s infinite linear;
+}
+
+
+

@@ -1,0 +1,24 @@
+nav {
+   width: 40%;
+   ul {
+      display: flex;
+      justify-content: space-between;
+      color: #fff;
+      li {
+         background-color: $first_color;
+         // padding: 0 10px;
+         transition: 0.3s;
+         z-index: 11;
+         .active {
+            color: $fourth_color;
+         }
+      }
+      li:hover {
+         transform: translateX(5px);
+         color: $second_color;
+         text-shadow: 0 0 7px $AUX_2_color, 0 0 10px $AUX_2_color,
+            0 0 42px $tertiary_color, 0 0 77px $tertiary_color,
+            0 0 100px $tertiary_color;
+      }
+   }
+}
