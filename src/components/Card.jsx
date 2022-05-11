@@ -5,7 +5,7 @@ const Card = (props) => {
    return (
       <li className="card">
          <div className="card__cover">
-            <img src={props.cover} alt="" />
+            <img src={props.cover} alt={props.title} />
          </div>
          <div className="features">
             <h3>{props.title}</h3>

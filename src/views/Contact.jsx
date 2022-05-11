@@ -3,6 +3,7 @@ import React from 'react';
 const Contact = () => {
    return (
       <main className="contact-page section">
+         <h2>.contact(</h2>
          <form action="" method="POST" className="formular">
             <div>
                <label htmlFor="lastname">Nom :</label>
@@ -24,6 +25,7 @@ const Contact = () => {
                <input type="submit" name="submit" id="submit" value="Envoyer" />
             </div>
          </form>
+         <span>);</span>
       </main>
    );
 };

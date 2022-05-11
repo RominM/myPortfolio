@@ -1,6 +1,26 @@
 .mywork-page {
-   width: 80%;
+   width: 85%;
    margin-top: 20vh;
-
    color: $AUX_2_color;
+   .mouse {
+      position: fixed;
+      right: 200px;
+      bottom: 125px;
+      width: 25px;
+      height: 25px;
+      border: solid 1px #454545;
+      border-radius: 50%;
+      padding: 20px;
+      transition: 0.3s;
+      color: transparent;
+      font-size: 0.1em;
+      background-image: url('./../../../assets/svg/computer-mouse-solid.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: #454545;
+      background-position: center;
+   }
+   .mouse:hover {
+      background-color: $second_color;
+   }
 }

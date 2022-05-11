@@ -2,8 +2,8 @@
    {
       "id": 1,
       "title": "Reservia",
-      "descript": "First approche on basic language HTML & CSS. Make a model real",
-      "cover": "assets/img/revervia_cover.png",
+      "descript": "Approche on basic language HTML & CSS. Make a single page model real",
+      "cover": "/images/revervia_cover.png",
       "link": "https://rominm.github.io/RominManogil_2_08022021/",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
@@ -15,7 +15,7 @@
       "id": 2,
       "title": "Oh my food",
       "descript": "Navigation in local with different link. Creat all page then make little CSS animation",
-      "cover": "../../../assets/img/ohmyfood_cover.jpg",
+      "cover": "/images/ohmyfood_cover.jpg",
       "link": "https://rominm.github.io/RominManogil_03_18032021/",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
@@ -28,8 +28,8 @@
    {
       "id": 3,
       "title": "GameOn",
-      "descript": "First approch to Javascript. Handle a validation of formular with checkbox, required fields then generate an error message ",
-      "cover": "require(./../assets/img/gameOn_cover.png)",
+      "descript": "Handle a validation of formular with Javascript, required fields then generate an error message",
+      "cover": "/images/gameOn_cover.png",
       "link": "https://rominm.github.io/RominManogil_04_18032021/",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
@@ -37,29 +37,29 @@
          "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
          "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
          "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
-         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original"
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
       ]
    },
    {
       "id": 4,
       "title": "FishEyes",
       "descript": "Multi-task in Vanilla Javascript project dynamicly with nativ loop and accessiblity",
-      "cover": "./../assets/img/fisheys_cover.PNG",
+      "cover": "/images/fisheys_cover.PNG",
       "link": "https://rominm.github.io/RominManogil_06_07062021/",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
-         "https://raw.githubusercontent.com/devicons/devicon/master/icons/https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg/https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg-original-wordmark.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
          "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
          "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
          "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
-         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original"
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
       ]
    },
    {
       "id": 5,
       "title": "Les petits plats",
       "descript": "Creating a searching algorythme among different recipes",
-      "cover": "./../assets/img/les-petits-plats_cover.PNG",
+      "cover": "/images/les-petits-plats_cover.PNG",
       "link": "https://rominm.github.io/RominManogil_07_13092021/",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
@@ -67,14 +67,14 @@
          "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
          "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
          "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
-         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original"
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
       ]
    },
    {
       "id": 6,
       "title": "Billed",
-      "descript": "",
-      "cover": "./../assets/img/billed_cover.png",
+      "descript": "Test writing with Jest on a Saas",
+      "cover": "/images/billed_cover.png",
       "link": "",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
@@ -86,11 +86,21 @@
          "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
       ]
    },
+
    {
       "id": 7,
+      "title": "Learn@Home",
+      "descript": "Simply React application",
+      "cover": "/images/learn-at-home_cover.PNG",
+      "link": "https://www.figma.com/file/aC1xZLdxynh24yQ9evfnx3/Learn%40Home?node-id=0%3A1",
+      "tags": ["https://www.vectorlogo.zone/logos/figma/figma-icon.svg"]
+   },
+
+   {
+      "id": 8,
       "title": "Kasa",
       "descript": "Simply React application",
-      "cover": "./../assets/img/kasa_cover.PNG",
+      "cover": "/images/kasa_cover.PNG",
       "link": "https://rominmanogil-p11-kasa.netlify.app/",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
@@ -103,10 +113,10 @@
       ]
    },
    {
-      "id": 8,
+      "id": 9,
       "title": "SportSee",
       "descript": "Using React then reachart from api data",
-      "cover": "./../assets/img/sportSee_cover.PNG",
+      "cover": "/images/sportSee_cover.PNG",
       "link": "https://sportsee-mgl-p12.netlify.app/",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
@@ -119,9 +129,9 @@
       ]
    },
    {
-      "id": 9,
+      "id": 10,
       "title": "ArgentBank",
-      "descript": "",
+      "descript": "Handle a security authantication to bank account by Redux and writing the swagger",
       "cover": "",
       "link": "",
       "tags": [
@@ -136,7 +146,7 @@
       ]
    },
    {
-      "id": 10,
+      "id": 11,
       "title": "HRnet",
       "descript": "",
       "cover": "",
@@ -150,6 +160,22 @@
          "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
          "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
          "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+      ]
+   },
+   {
+      "id": 12,
+      "title": "this.",
+      "descript": "My portefolio to present you all of my project",
+      "cover": "/images/portfolio_cover.PNG",
+      "link": "",
+      "tags": [
+         "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+         "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+         "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
       ]
    }
 ]
