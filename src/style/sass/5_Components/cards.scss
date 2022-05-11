@@ -36,6 +36,7 @@
          }
          p {
             letter-spacing: 2px;
+            line-height: 21px;
          }
          .tags {
             position: absolute;
@@ -47,8 +48,8 @@
             margin: 0 5px 15px 5px;
             .tag {
                border: solid 1px $tertiary_color;
-               width: 50px;
-               height: 50px;
+               width: 40px;
+               height: 40px;
                margin: 5px;
                img {
                   // object-fit: contain;

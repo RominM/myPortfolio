@@ -12,6 +12,7 @@
       text-shadow: 0 0 7px $AUX_1_color, 0 0 10px $AUX_2_color,
          0 0 42px $tertiary_color, 0 0 77px $tertiary_color,
          0 0 100px $tertiary_color;
+      cursor: default;
    }
    .h1-bracket {
       font-size: 2em;
@@ -19,6 +20,8 @@
    .typical {
       display: block;
       padding: 20px;
+      cursor: default;
+
       .type-animation {
          margin-left: 30px;
          color: #d19940;
@@ -32,15 +35,17 @@
       -webkit-background-clip: text;
       -moz-background-clip: text;
       background-clip: text;
+      cursor: default;
    }
 }
 
 .section::before {
    content: '';
+   box-sizing: border-box;
    position: absolute;
    left: 250px;
    display: block;
    background: linear-gradient($tertiary_color, $first_color);
    width: 2px;
-   height: 320px;
+   height: 65%;
 }
