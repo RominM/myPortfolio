@@ -15,8 +15,10 @@
          height: 2rem;
          margin-top: 10px;
          margin-bottom: 20px;
+         font-size: 1.3rem;
       }
       #message {
+         @extend input;
          height: 8rem;
       }
       #submit {

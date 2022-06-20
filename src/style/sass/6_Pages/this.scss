@@ -38,14 +38,3 @@
       cursor: default;
    }
 }
-
-.section::before {
-   content: '';
-   box-sizing: border-box;
-   position: absolute;
-   left: 250px;
-   display: block;
-   background: linear-gradient($tertiary_color, $first_color);
-   width: 2px;
-   height: 65%;
-}

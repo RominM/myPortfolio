@@ -15,12 +15,7 @@ const Network = () => {
             <img src={githubLOGO} alt="github logo" />
             <span className="hover-effect"></span>
          </a>
-         <a
-            href="tel:+33603694664"
-            className="whatsapp-logo network__logo"
-            target="_blank"
-            rel="noreferrer"
-         >
+         <a href="tel:+33603694664" className="whatsapp-logo network__logo">
             <img src={whatsappLOGO} alt="whatsapp logo" />
             <span className="hover-effect"></span>
          </a>
