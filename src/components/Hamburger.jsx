@@ -6,12 +6,15 @@ const Hamburger = (props) => {
 
    const handleMenu = () => {
       const navMenu = document.querySelector('.responsive-nav');
-      !toggle
-         ? navMenu.classList.add('open')
-         : navMenu.classList.remove('open');
-      toggle
-         ? navMenu.classList.add('close')
-         : navMenu.classList.remove('close');
+      if (!toggle) {
+         navMenu.style.display = 'block';
+         navMenu.classList.add('open');
+         navMenu.classList.remove('close');
+      } else {
+         navMenu.style.display = 'none';
+         navMenu.classList.remove('open');
+         navMenu.classList.add('close');
+      }
       setToggle(!toggle);
    };
 

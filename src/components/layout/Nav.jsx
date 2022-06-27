@@ -4,6 +4,14 @@ import { NavLink } from 'react-router-dom';
 const Nav = (props) => {
    const resized = props.resized; //bool
 
+   const handleMenu = () => {
+      const navMenu = document.querySelector('.responsive-nav');
+
+      navMenu.classList.remove('open');
+      navMenu.classList.add('close');
+      navMenu.style.display = 'none';
+   };
+
    return (
       <nav className={resized ? 'nav-bar' : 'responsive-nav close'}>
          <ul>
@@ -13,6 +21,7 @@ const Nav = (props) => {
                   className={({ isActive }) =>
                      isActive ? 'active' : 'inactive'
                   }
+                  onClick={handleMenu}
                >
                   this()
                </NavLink>
@@ -23,6 +32,7 @@ const Nav = (props) => {
                   className={({ isActive }) =>
                      isActive ? 'active' : 'inactive'
                   }
+                  onClick={handleMenu}
                >
                   my_work()
                </NavLink>
@@ -33,6 +43,7 @@ const Nav = (props) => {
                   className={({ isActive }) =>
                      isActive ? 'active' : 'inactive'
                   }
+                  onClick={handleMenu}
                >
                   about()
                </NavLink>
@@ -43,6 +54,7 @@ const Nav = (props) => {
                   className={({ isActive }) =>
                      isActive ? 'active' : 'inactive'
                   }
+                  onClick={handleMenu}
                >
                   contact()
                </NavLink>

@@ -36,7 +36,33 @@ nav {
    display: true;
 }
 .responsive-nav {
+   position: absolute;
+   right: 0;
+   left: 50%;
+   top: 98px;
+   bottom: 0;
+   background-color: $first_color;
+   border-left: solid $tertiary_color 1px;
+   z-index: 55;
+   opacity: 0;
+   animation: apear 1s;
+   animation-fill-mode: both;
    ul {
+      width: 100%;
+      height: 100vw;
       flex-direction: column;
+      margin: 25px auto;
+      li {
+         margin: 25px;
+      }
+   }
+}
+
+@keyframes apear {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
    }
 }
