@@ -3,13 +3,27 @@ header {
    background-color: $first_color;
    top: 0;
    left: 0;
-   display: flex;
    width: 100%;
-   justify-content: space-between;
    height: 2rem;
    line-height: 2rem;
    padding: 1rem 15rem 1rem;
    background-color: $first_color;
    border-bottom: solid $tertiary_color 1px;
    z-index: 10;
+   .rm-title {
+      position: absolute;
+      left: 9.5%;
+   }
+}
+
+@media screen and(max-width:900px) {
+   header {
+      position: inherit;
+      padding: 0;
+      height: 6rem;
+      .rm-title {
+         margin-top: 25px;
+         font-size: 2.7rem;
+      }
+   }
 }

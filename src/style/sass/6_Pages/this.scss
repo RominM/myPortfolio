@@ -1,8 +1,8 @@
 .section {
-   width: 50%;
+   width: 85%;
    padding: 20vh;
-   margin-top: 30vh;
-   margin-left: 15vh;
+   margin-top: 20vh;
+   margin-left: 10%;
    font-size: 2rem;
    .neon {
       display: inline;
@@ -18,11 +18,13 @@
       font-size: 2em;
    }
    .typical {
+      max-width: 120%;
       display: block;
       padding: 20px;
       cursor: default;
 
       .type-animation {
+         width: 100%;
          margin-left: 30px;
          color: #d19940;
       }
@@ -31,10 +33,44 @@
    h2 {
       display: inline;
       color: transparent;
-      text-shadow: 2px 2px 4px $fourth_color;
+      text-shadow: 1px 3px 1px $fourth_color;
       -webkit-background-clip: text;
       -moz-background-clip: text;
       background-clip: text;
       cursor: default;
+   }
+}
+
+@media screen and(max-width: 950px) {
+   .this-page {
+      margin-left: 10vw;
+      padding: 17%;
+      font-size: 3vw;
+      .neon {
+         font-size: 7vw;
+      }
+      .h1-bracket {
+         font-size: 3vw;
+      }
+      .typical {
+         width: auto;
+      }
+   }
+}
+
+@media screen and(max-width: 700px) {
+   .this-page {
+      margin: 30% auto;
+      padding: 7px;
+      font-size: 1.1em;
+      .neon {
+         font-size: 1.5em;
+      }
+      .h1-bracket {
+         font-size: 1em;
+      }
+      .content {
+         margin-bottom: 100px;
+      }
    }
 }

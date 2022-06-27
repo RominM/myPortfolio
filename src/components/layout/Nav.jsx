@@ -1,9 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Nav = () => {
+const Nav = (props) => {
+   const resized = props.resized; //bool
+
    return (
-      <nav>
+      <nav className={resized ? 'nav-bar' : 'responsive-nav close'}>
          <ul>
             <li>
                <NavLink

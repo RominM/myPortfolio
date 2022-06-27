@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 import AnimatedRoutes from './Routes/AnimatedRoutes';
 import Footer from './components/layout/Footer';
-import Header from './components/layout/Header';
+// import Header from './components/layout/Header';
 
 import './style/sass/main.scss';
 
@@ -12,7 +12,7 @@ root.render(
    <React.StrictMode>
       <Router>
          <div className="App">
-            <Header />
+            {/* <Header /> */}
             <AnimatedRoutes />
             <Footer />
          </div>
