@@ -132,8 +132,8 @@
       "id": "-35pT4KHDkCAHBw217_ZCA",
       "title": "ArgentBank",
       "descript": "Handle a security authantication to bank account by Redux and writing the swagger",
-      "cover": "",
-      "link": "/",
+      "cover": "/images/argent-bank_cover.png",
+      "link": "",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
          "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
@@ -148,7 +148,7 @@
    {
       "id": "SUmn6cRe1keo6B6JDM4Jqw",
       "title": "HRnet",
-      "descript": "Work in progress",
+      "descript": "Refont a JQuery app in full React app yhen create a npm package",
       "cover": "/images/hrnet_cover.png",
       "link": "/",
       "tags": [
@@ -167,6 +167,22 @@
       "title": "this.",
       "descript": "My portefolio to present you all of my project",
       "cover": "/images/portfolio_cover.PNG",
+      "link": "",
+      "tags": [
+         "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+         "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+         "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+         "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+      ]
+   },
+   {
+      "id": "wdSfTeYlBE-d8MpBdQar7Q",
+      "title": "Space Tourisme",
+      "descript": "Challenge from frontendmentor.io for a starship tourisme",
+      "cover": "/images/space-tourisme_cover.png",
       "link": "",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
