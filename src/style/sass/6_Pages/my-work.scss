@@ -24,3 +24,13 @@
       background-color: $second_color;
    }
 }
+
+@media screen and(max-width: 870px) {
+   .mywork-page {
+      margin: 50px auto;
+      padding: 0;
+      .mouse {
+         display: none;
+      }
+   }
+}
