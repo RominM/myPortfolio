@@ -22,15 +22,16 @@ const MyWork = () => {
             <h2>my_work(</h2>
             <ul className="projects">
                {projects.map((project) => (
-                  <a href={project.link} key={project.id}>
+                  <li key={project.id} className="card">
                      <Card
                         id={project.id}
                         title={project.title}
                         descript={project.descript}
                         cover={project.cover}
                         tags={project.tags}
+                        href={project.link}
                      />
-                  </a>
+                  </li>
                ))}
             </ul>
             <span>);</span>

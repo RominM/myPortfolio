@@ -8,11 +8,13 @@
       height: 500px;
       font-size: 1rem;
       list-style: none;
+      color: $second_color;
       border: solid $AUX_2_color 1px;
       border-radius: 5px;
       margin: 50px 25px;
       box-shadow: 3px 3px 5px $AUX_2_color;
-      transition: 0.7s;
+      cursor: pointer;
+      transition: 1s;
       &__cover {
          height: 200px;
          overflow: hidden;

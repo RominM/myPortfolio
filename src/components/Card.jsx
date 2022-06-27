@@ -1,9 +1,15 @@
 import React from 'react';
+import { useState } from 'react';
 import Tag from './Tag';
 
 const Card = (props) => {
+   const [choices, setChoices] = useState(false);
+   const handleChoices = () => {
+      setChoices(true);
+   };
+
    return (
-      <li className="card">
+      <div onClick={handleChoices}>
          <div className="card__cover">
             <img src={props.cover} alt={props.title} />
          </div>
@@ -14,7 +20,13 @@ const Card = (props) => {
                <Tag tags={props.tags} id={props.id} />
             </div>
          </div>
-      </li>
+         {choices && (
+            <div className="">
+               <button>Source code</button>
+               <button>Website</button>
+            </div>
+         )}
+      </div>
    );
 };
 
