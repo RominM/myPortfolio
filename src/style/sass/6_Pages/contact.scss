@@ -2,7 +2,7 @@
    color: $second_color;
    margin-top: 0;
    .formular {
-      width: 100%;
+      width: 45%;
       border: solid 2px;
       border-radius: 5px;
       margin: 25px 0 15px 50px;
@@ -23,6 +23,7 @@
       }
       #submit {
          display: block;
+         max-width: 250px;
          width: 50%;
          height: 3rem;
          margin: auto;
