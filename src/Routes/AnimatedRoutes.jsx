@@ -6,6 +6,7 @@ import MyWork from '../views/MyWork';
 import This from '../views/This';
 import { AnimatePresence } from 'framer-motion';
 import Header from '../components/layout/Header';
+import Error404 from '../views/Error404';
 
 const AnimatedRoutes = () => {
    const location = useLocation();
@@ -38,6 +39,7 @@ const AnimatedRoutes = () => {
                <Route path="/mywork" element={<MyWork />} />
                <Route path="/about" element={<About />} />
                <Route path="/contact" element={<Contact />} />
+               <Route path="*" element={<Error404 />} />
             </Routes>
          </AnimatePresence>
       </>
