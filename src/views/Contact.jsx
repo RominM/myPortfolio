@@ -34,7 +34,8 @@ const Contact = () => {
 
    const validate = (values) => {
       const errors = {};
-      const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i;
+      // eslint-disable-next-line
+      // const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i;
 
       if (!values.firstName) {
          errors.firstName = "Merci d'entrer votre Prénom";
@@ -46,9 +47,10 @@ const Contact = () => {
 
       if (!values.email) {
          errors.email = "Merci d'entrer un email";
-      } else if (!regex.test(values.email)) {
-         errors.email = 'Email non valide (example@domain.com)';
       }
+      // else if (!regex.test(values.email)) {
+      //    errors.email = 'Email non valide (example@domain.com)';
+      // }
 
       if (!values.message) {
          errors.message = "Merci d'entrer votre message";
