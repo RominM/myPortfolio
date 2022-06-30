@@ -68,17 +68,6 @@
    }
 }
 
-@media screen and(max-width: 870px) {
-   .projects {
-      justify-content: center;
-      text-align: center;
-      margin: auto;
-      .card {
-         margin: auto;
-      }
-   }
-}
-
 @keyframes spin {
    100% {
       transform: rotateY(360deg);
@@ -88,5 +77,16 @@
 @keyframes scale {
    100% {
       transform: scale(1.1);
+   }
+}
+
+@media screen and(max-width: 870px) {
+   .projects {
+      justify-content: center;
+      text-align: center;
+      margin: 40px auto;
+      .card {
+         margin: 30px auto;
+      }
    }
 }

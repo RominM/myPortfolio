@@ -75,7 +75,7 @@
       "title": "Billed",
       "descript": "Test writing with Jest on a RH Saas",
       "cover": "/images/billed_cover.png",
-      "link": "",
+      "link": "https://rominm.github.io/Billed-app-FR/",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
          "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
@@ -148,9 +148,9 @@
    {
       "id": "SUmn6cRe1keo6B6JDM4Jqw",
       "title": "HRnet",
-      "descript": "Refont a JQuery app in full React app yhen create a npm package",
+      "descript": "Refont a JQuery app in full React app then create a npm package",
       "cover": "/images/hrnet_cover.png",
-      "link": "/",
+      "link": "https://hrrnet-rm.netlify.app/",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
          "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
@@ -167,7 +167,7 @@
       "title": "this.",
       "descript": "My portefolio to present you all of my project",
       "cover": "/images/portfolio_cover.PNG",
-      "link": "",
+      "link": "https://rominmanogil-portfolio.netlify.app/",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
          "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
@@ -183,7 +183,7 @@
       "title": "Space Tourisme",
       "descript": "Challenge from frontendmentor.io for a starship tourisme",
       "cover": "/images/space-tourisme_cover.png",
-      "link": "",
+      "link": "https://space-tourisme-rm.netlify.app/",
       "tags": [
          "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
          "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
