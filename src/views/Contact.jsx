@@ -15,7 +15,13 @@ const Contact = () => {
             exit={{ y: window.innerHeight, transition: { duration: 0.7 } }}
          >
             <h2>.contact(</h2>
-            <form action="" method="POST" className="formular">
+            <form
+               action=""
+               method="POST"
+               className="formular"
+               data-netlify="true"
+            >
+               <input type="hidden" name="form-name" value="contact" />
                <div>
                   <label htmlFor="lastname">Nom :</label>
                   <input type="text" name="lastname" id="lastname" required />
@@ -36,7 +42,6 @@ const Contact = () => {
                      cols="30"
                      rows="10"
                   ></textarea>
-                  {/* <input type="text" name="message" id="message" required /> */}
                </div>
                <div>
                   <input
